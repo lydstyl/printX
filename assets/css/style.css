@@ -1,0 +1,71 @@
+/* Common styles */
+    .hidden {
+        display: none;
+    }
+
+    .exemple{
+        font-style: italic;
+        font-size: 10px;
+    }
+
+
+/* Insert forms */
+    .insert-button{
+        display: inline-block
+    }
+    .insert-form {
+        display: flex;
+        margin-left: 20px;
+        align-content: center;
+        align-items: center;
+    } 
+    .insert-form input {
+        max-width: 200px;
+        margin: 0 10px
+    }
+
+/* Style for sidebar */
+    .sidebar .naxan-logo {
+        display: block;
+        height: 39px;
+        background-image: url("../img/logo/naxanlogo-tiny.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+/* Style for login page */
+    .login .main-panel{
+        width: 100%;
+        height: 100%;
+    }
+    .login h1 {
+        font-size: 1.825em;
+        line-height: 1.4;
+        margin: 10px 0;
+        padding-bottom: 20px;
+    }
+    .login .pwd-lost{
+        margin-top: 10px;
+    }
+
+/* Style for register page */
+    .register .main-panel{
+        width: 100%;
+        height: 100%;
+    }
+    .register h1 {
+        font-size: 1.825em;
+        line-height: 1.4;
+        margin: 10px 0;
+        padding-bottom: 20px;
+    }
+    .register .connect {
+        margin-top: 10px;    
+    }
+
+/* Style for user profile page */
+    .profile .username {
+        color: #EB5E28;
+        font-style: italic;
+    }
+

@@ -1,0 +1,34 @@
+/etc/init.d/apache2 start pour démarrer apache
+
+Sur le T460 ou via XAMPP :
+https://www.apachefriends.org/faq_linux.html
+sudo /opt/lampp/lampp start     ou    stop
+
+
+On utilise CodeIgniter-3.1.6
+
+
+GIT
+    storer identifiant et pass : git config --global credential.helper store
+    supprimer une branche distante eg : git push origin --delete test_theme
+
+RASPBERRY SERVER
+    sudo /etc/init.d/apache2 reload  OU start OU stop
+
+
+QUESTIONS POUR DAVID
+Peut on en savoir plus sur l'age du parc ? Faut il ajouter un age à chaque référence ? Voir aussi tous les graphiques du pre après l'age.
+Permettre de sauver partielement un formulaire ? 
+Champs "required" ? (forcer la saisie en JS, recette si erreur PHP)
+Quel front pour le PRE : Style des tites, background, et pour les graphique taille, couleur, légende ou pas, etc.
+Faut il ajouter les petits tableaux liés aux graphiques ?
+Ajouter de nouvelles informations à la base de donnée (voir avec Cyril et David ? en faisant un tour sur le pre)
+    age du parc > table équipement ou référence ?
+    couleur, jet d'encre, connecté, carte fax, rv auto, a3, unité de finition > référence ? nom de champs : caractéristiques techniques séparées par des ';' ?
+    volume mensuel d'impression couleur et noir et blanc > équipement ? couleur ou noir et blanc dans référence ?
+    Charges fixes: prix achat, cout location > équipement ?
+    Charges variables: TCO Achat de conso, TCO Contrats de Maintenance ?
+    Cout total de possession (TCO) explication des 4 tco ?
+    De même pour Coût total de possession (TCO) avec l’intervention de NAXAN
+
+
